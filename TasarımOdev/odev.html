@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            background: linear-gradient(30deg, #21bfe6,#d719f4);
+            align-items: center;
+            justify-content: center;
+            display: flex;     
+            align-items: center;
+            min-height: 100vh;
+        }
+        .form{
+            width: 300px;
+            height: 400px;
+            background-color:white;
+            display: flex;
+            flex-direction: column;
+            padding: 30px;
+            border-radius: 15px;
+
+           
+        }
+        h2{
+            font-family: 'Poppins', sans-serif;
+            margin-left: 80px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            
+        }
+        .tbox
+        {
+            margin-top: 10px;
+            border: none;
+            border-bottom: solid 0.5px;
+            outline: none;
+            font-size: 16px;
+            height: 70px;
+        }
+       .btn{
+           background: linear-gradient(30deg, #21bfe6 , #d719f4);
+           height: 50px;
+           font-size: 18px;
+           border: none;
+           outline: none;
+           cursor: pointer;
+           border-radius: 20px;
+           margin-top: 70px;       
+           color: white;
+        }
+        small{
+            font-family: 'Poppins', sans-serif;
+             font-size: 13px;
+             margin-top: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+  <div class="form">
+  <h2>Say Hello!</h2>
+  <small>Your Name</small>
+  
+  <input type="text" class="tbox" placeholder="Enter your name">
+  <small>Email</small>
+  
+  <input type="email" class="tbox" placeholder="Enter your email adress" >
+  <small>Needed Services</small>
+  
+  <input type="text" class="tbox" placeholder="Choose Services">
+  <small>Budget</small>
+  
+  <input type="text" class="tbox" placeholder="Choose Budget">
+  <small>Budget</small>
+  
+ <button class="btn">Submit  <i class="fa-solid fa-arrow-right"></i>  </button>
+ 
+  
+  
+ 
+   </div>
+</body>
+</html>
